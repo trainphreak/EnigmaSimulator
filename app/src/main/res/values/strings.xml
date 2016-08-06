@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">About</string>
+    <string name="about_message">Created by trainphreak\n© 2014 Gabriel Vistica\nAll Rights Reserved\n\nRotor wirings from codesandciphers.co.uk/enigma\n\nThis app uses the WheelView widget, created by Yuri Kanivets</string>
+    <string name="about_title">About Enigma Simulator</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="app_name">Enigma</string>
+    <string name="blank"/>
+    <string name="cancel">Cancel</string>
+    <string name="continue_text">Continue</string>
+    <string name="clear">Clear</string>
+    <string name="clear_input_message">Are you sure you want to clear the input box?</string>
+    <string name="clear_input_title">Clear Input</string>
+    <string name="input_box_hint">Enter message here</string>
+    <string name="letters_only_message">The Enigma machine can only encrypt letters. Any numerals or special characters in the message will be ignored. Would you like to proceeed?</string>
+    <string name="letters_only_title">Letters only</string>
+    <string name="main_screen_help">The Enigma machine is a rotor-based cipher machine that was first patented in Germany in 1918. It was adopted for use by the various branches of the German military between 1925 and 1930, and continued to be used throughout WWII.\n\n\nHOW TO USE\n\nChoose your starting position for each rotor on this screen and your settings on the other screens. Be sure to remember all the settings or agree on them beforehand, or the recipient won’t be able to read your message! Type in the text you wish to encipher/decipher and press Run. You can now copy the text below the gray box and send it to someone, but if they don’t know which settings to use they won’t be able to read the message, even if they have this app!</string>
+    <string name="package_name">com.trainphreak.enigmasimulator</string>
+    <string name="reset">Reset</string>
+    <string name="reset_all">Reset All</string>
+    <string name="reset_all_message">Are you sure you want to reset EVERYTHING?</string>
+    <string name="reset_positions_message">Are you sure you want to reset the rotor positions?\n(This won\'t clear the input box)</string>
+    <string name="reset_rotors_message">Are you sure you want to reset the rotors and reflector?</string>
+    <string name="reset_title">Confirm reset</string>
+    <string name="rotors">Rotors</string>
+    <string name="rotor_screen_help_message">HOW TO USE\n\nChoose the reflector, rotors, and ring settings for each rotor on this screen. These settings are just as important as the settings on the other screens, so remember them or agree on them ahead of time!</string>
+    <string name="run">Run</string>
+    <string name="steckerboard">Steckerboard</string>
+    <string name="steckerboard_help_message">HOW TO USE\n\nPick letters to swap while enciphering/deciphering here. These settings are important too, so make sure to remember them or agree on them before you start sending messages!</string>
+    <string name="steckerboard_reset_message">Are you sure you want to reset the steckerboard plugs?</string>
+
+
+    <string-array name="reflectors">
+        <item>Reflector B</item>
+        <item>Reflector C</item>
+    </string-array>
+    <string-array name="rotors">
+        <item>Rotor I</item>
+        <item>Rotor II</item>
+        <item>Rotor III</item>
+        <item>Rotor IV</item>
+        <item>Rotor V</item>
+        <item>Rotor VI</item>
+        <item>Rotor VII</item>
+        <item>Rotor VIII</item>
+    </string-array>
+
+</resources>

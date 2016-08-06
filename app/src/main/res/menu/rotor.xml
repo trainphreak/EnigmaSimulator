@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:orderInCategory="125"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/resetRotors"
+        android:title="Reset Rotor Settings"
+        android:orderInCategory="150"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/resetAll"
+        android:title="Reset All"
+        android:orderInCategory="200"
+        android:showAsAction="never"/>
+</menu>

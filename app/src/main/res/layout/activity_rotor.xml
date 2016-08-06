@@ -1,0 +1,65 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.trainphreak.enigmasimulator.RotorActivity"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reflectorSpinner"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotor1Spinner"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotor2Spinner"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotor3Spinner"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal">
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/reflectorSpacer"
+            android:visibility="invisible"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/rotor1Ring"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/rotor2Ring"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/rotor3Ring"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

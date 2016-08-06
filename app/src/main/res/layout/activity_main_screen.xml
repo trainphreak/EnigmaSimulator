@@ -1,0 +1,129 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainScreen">
+
+    <!-- Holds LinearLayouts for rotors and textbox -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!-- Holds rotors -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/rotor1Pos"
+                android:layout_marginRight="25dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/rotor2Pos"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/rotor3Pos"
+                android:layout_marginLeft="25dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- Holds textboxes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/inputBox"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#AFAFAF"
+                android:hint="@string/input_box_hint"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/outputBox"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:typeface="monospace"
+                android:textIsSelectable="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Holds page buttons and En/Decipher button -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <!-- Holds page buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:id="@+id/rotorsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotors"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/steckerboardButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steckerboard"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <!-- Holds En/Decipher button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/runButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/run"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.trainphreak.enigmasimulator.SteckerboardActivity">
+
+    <TableRow
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonA"
+            android:text="A (A)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonB"
+            android:text="B (B)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonC"
+            android:text="C (C)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonD"
+            android:text="D (D)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonE"
+            android:text="E (E)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonF"
+            android:text="F (F)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonG"
+            android:text="G (G)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:visibility="invisible"
+            android:layout_weight="0"/>
+        <Button
+            android:id="@+id/buttonH"
+            android:text="H (H)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonI"
+            android:text="I (I)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonJ"
+            android:text="J (J)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonK"
+            android:text="K (K)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonL"
+            android:text="L (L)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonM"
+            android:text="M (M)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_weight="0"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonN"
+            android:text="N (N)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonO"
+            android:text="O (O)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonP"
+            android:text="P (P)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonQ"
+            android:text="Q (Q)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonR"
+            android:text="R (R)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonS"
+            android:text="S (S)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonT"
+            android:text="T (T)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:visibility="invisible"
+            android:layout_weight="0"/>
+        <Button
+            android:id="@+id/buttonU"
+            android:text="U (U)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonV"
+            android:text="V (V)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonW"
+            android:text="W (W)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonX"
+            android:text="X (X)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonY"
+            android:text="Y (Y)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/buttonZ"
+            android:text="Z (Z)"
+            android:layout_weight="1"
+            android:onClick="buttonClick"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_weight="0"/>
+
+    </TableRow>
+</TableLayout>

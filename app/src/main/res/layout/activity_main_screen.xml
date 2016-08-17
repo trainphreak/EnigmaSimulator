@@ -29,21 +29,21 @@
 
             <kankan.wheel.widget.WheelView
                 android:id="@+id/rotor1Pos"
-                android:layout_marginRight="25dp"
-                android:layout_width="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"/>
 
             <kankan.wheel.widget.WheelView
                 android:id="@+id/rotor2Pos"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_width="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"/>
 
             <kankan.wheel.widget.WheelView
                 android:id="@+id/rotor3Pos"
-                android:layout_marginLeft="25dp"
-                android:layout_width="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
